@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
+    //not very familiar with C#
     public class VoteMachine
     {
         private static VoteMachine _instance = null;
 
-        private int _totalVote;
+        private int _totalVote; 
         private static readonly object lockOb = new object();
 
         private VoteMachine()
